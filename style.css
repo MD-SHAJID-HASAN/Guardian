@@ -1,23 +1,27 @@
-.logo{
+body {
+    background-color: rgba(75, 12, 63, 1);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo {
     width: 30px;
     border-radius: 5px;
     margin-right: 10px;
 }
 
-.navs{
-    color: white !important;
-}
+.form {
 
-.form{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     width: 80%;
     margin: 0 auto;
     padding: 20px;
     border-radius: 20px;
-    margin-top: 40px;
+    margin-top: 60px;
+    color: rgb(0, 0, 0);
 }
 
-.options{
+.options {
     background-color: aquamarine;
     width: 80%;
     height: 200px;
@@ -30,18 +34,39 @@
     border-radius: 20px;
 }
 
-.buttons{
+.buttons {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
-.buttons .button{
+.buttons .button {
     width: 80%;
     margin: 0 auto;
     margin-top: 10px;
     height: 50px;
     font-size: larger;
     font-style: bolder !important;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    height: 150px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.social a {
+    font-size: larger;
+    margin-left: 10px;
+}
+
+small {
+    margin-top: 15px;
 }
