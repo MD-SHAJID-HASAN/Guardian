@@ -66,6 +66,8 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    position: absolute;
+    bottom: 0;
 
 }
 
