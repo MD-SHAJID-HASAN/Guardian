@@ -11,6 +11,11 @@ body {
     margin-right: 10px;
 }
 
+.title {
+    color: rgba(75, 12, 63, 1);
+    font-weight: 700;
+}
+
 .form {
 
     background-color: rgb(255, 255, 255);
@@ -61,6 +66,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+
 }
 
 .social a {
