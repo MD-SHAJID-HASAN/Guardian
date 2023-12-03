@@ -66,9 +66,6 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    position: absolute;
-    bottom: 0;
-
 }
 
 .social a {
@@ -79,3 +76,11 @@ body {
 small {
     margin-top: 15px;
 }
+
+@media screen and (min-width: 300px) {
+    .footer {
+
+        position: absolute;
+        bottom: 0;
+
+    }
